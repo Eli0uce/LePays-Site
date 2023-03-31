@@ -1,0 +1,179 @@
+Log created: 2023-03-31 01:26:55
+Type: backup
+[2023-03-31 01:26:56][notice]Start backing up.
+[2023-03-31 01:26:56][notice]server info fcgi:Off max execution time: 300 wp version:6.2 php version:8.2.0 db version:10.4.27 php ini:safe_mode: memory_limit:256M memory_get_usage:62,68 Mo memory_get_peak_usage:63,43 Mo extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-03-31 01:26:56][notice]Prepare to backup backup_db files.
+[2023-03-31 01:26:56][notice]Start exporting database.
+[2023-03-31 01:26:56][notice]Preparing to dump table wp_itsec_user_groups
+[2023-03-31 01:26:56][notice]Preparing to dump table wp_actionscheduler_claims
+[2023-03-31 01:26:56][notice]Preparing to dump table wp_actionscheduler_groups
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_itsec_dashboard_events
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_itsec_distributed_storage
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_itsec_mutexes
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_itsec_opaque_tokens
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_links
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_term_relationships
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_actionscheduler_logs
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_aioseo_posts
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_commentmeta
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_itsec_bans
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_itsec_fingerprints
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_itsec_geolocation_cache
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_term_taxonomy
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_termmeta
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_terms
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_usermeta
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_users
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_aioseo_notifications
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_itsec_temp
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_postmeta
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_comments
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_itsec_lockouts
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_actionscheduler_actions
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_itsec_logs
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_aioseo_cache
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_posts
+[2023-03-31 01:26:57][notice]Preparing to dump table wp_options
+[2023-03-31 01:26:57][notice]Exporting database finished.
+[2023-03-31 01:26:57][notice]Start compressing database
+[2023-03-31 01:26:57][notice]Prepare to zip file. file: localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_db.sql
+[2023-03-31 01:26:57][notice]Adding zip files completed.localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_db.part001.zip, filesize: 1,75 Mo
+[2023-03-31 01:26:57][notice]Compressing database completed
+[2023-03-31 01:26:57][notice]Backing up backup_db completed.
+[2023-03-31 01:26:57][notice]Prepare to backup backup_themes files.
+[2023-03-31 01:26:58][notice]Compressing zip file:localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_themes.part001.zip index:439
+[2023-03-31 01:27:02][notice]Compressing zip file:localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_themes.part001.zip success. index:439 file size:12,65 Mo
+[2023-03-31 01:27:02][notice]Backing up backup_themes completed.
+[2023-03-31 01:27:02][notice]Prepare to backup backup_plugin files.
+[2023-03-31 01:27:04][notice]Compressing zip file:localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_plugin.part001.zip index:3294
+[2023-03-31 01:27:33][notice]Compressing zip file:localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_plugin.part001.zip success. index:3294 file size:76,20 Mo
+[2023-03-31 01:27:33][notice]Backing up backup_plugin completed.
+[2023-03-31 01:27:33][notice]Prepare to backup backup_uploads files.
+[2023-03-31 01:27:33][notice]Compressing zip file:localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_uploads.part001.zip index:19
+[2023-03-31 01:27:33][notice]Compressing zip file:localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_uploads.part001.zip success. index:19 file size:7,14 Mo
+[2023-03-31 01:27:33][notice]Backing up backup_uploads completed.
+[2023-03-31 01:27:33][notice]Prepare to backup backup_content files.
+[2023-03-31 01:27:34][notice]Compressing zip file:localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_content.part001.zip index:298
+[2023-03-31 01:27:35][notice]Compressing zip file:localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_content.part001.zip success. index:298 file size:4,29 Mo
+[2023-03-31 01:27:36][notice]Backing up backup_content completed.
+[2023-03-31 01:27:36][notice]Prepare to backup backup_core files.
+[2023-03-31 01:27:37][notice]Compressing zip file:localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_core.part001.zip index:2563
+[2023-03-31 01:28:15][notice]Compressing zip file:localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_core.part001.zip success. index:2563 file size:52,42 Mo
+[2023-03-31 01:28:15][notice]Backing up backup_core completed.
+[2023-03-31 01:28:15][notice]Prepare to backup backup_merge files.
+[2023-03-31 01:28:15][notice]Prepare to zip file. file: localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_db.zip
+[2023-03-31 01:28:15][notice]Adding zip files completed.localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.part001.zip, filesize: 1,75 Mo
+[2023-03-31 01:28:15][notice]Prepare to zip file. file: localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_themes.zip
+[2023-03-31 01:28:15][notice]Adding zip files completed.localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.part001.zip, filesize: 14,40 Mo
+[2023-03-31 01:28:15][notice]Prepare to zip file. file: localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_plugin.zip
+[2023-03-31 01:28:18][notice]Adding zip files completed.localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.part001.zip, filesize: 39,78 Mo
+[2023-03-31 01:28:18][notice]Prepare to zip file. file: localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_uploads.zip
+[2023-03-31 01:28:18][notice]Adding zip files completed.localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.part001.zip, filesize: 46,93 Mo
+[2023-03-31 01:28:19][notice]Prepare to zip file. file: localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_content.zip
+[2023-03-31 01:28:19][notice]Adding zip files completed.localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.part001.zip, filesize: 51,21 Mo
+[2023-03-31 01:28:19][notice]Prepare to zip file. file: localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_core.zip
+[2023-03-31 01:28:21][notice]Adding zip files completed.localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.part001.zip, filesize: 62,98 Mo
+[2023-03-31 01:28:22][notice]Backing up backup_merge completed.
+[2023-03-31 01:28:22][notice]files: ["C:\/xampp\/htdocs\/wp-lepays\/wp-content\/wpvividbackups\/localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip"]
+[2023-03-31 01:28:22][notice]Connect site 
+[2023-03-31 01:28:24][notice]Start uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip
+[2023-03-31 01:28:27][notice]{"result":"success","file_status":{"status":"start"}}
+[2023-03-31 01:28:27][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 0
+[2023-03-31 01:28:32][notice]finished send chunk
+[2023-03-31 01:28:32][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 2,00 Mo speed:262.14kb/s
+[2023-03-31 01:28:32][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 2097152
+[2023-03-31 01:28:38][notice]finished send chunk
+[2023-03-31 01:28:38][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 4,00 Mo speed:349.53kb/s
+[2023-03-31 01:28:38][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 4194304
+[2023-03-31 01:28:43][notice]finished send chunk
+[2023-03-31 01:28:43][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 6,00 Mo speed:419.43kb/s
+[2023-03-31 01:28:43][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 6291456
+[2023-03-31 01:28:48][notice]finished send chunk
+[2023-03-31 01:28:48][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 8,00 Mo speed:419.43kb/s
+[2023-03-31 01:28:48][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 8388608
+[2023-03-31 01:28:53][notice]finished send chunk
+[2023-03-31 01:28:53][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 10,00 Mo speed:419.43kb/s
+[2023-03-31 01:28:53][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 10485760
+[2023-03-31 01:28:59][notice]finished send chunk
+[2023-03-31 01:28:59][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 12,00 Mo speed:349.53kb/s
+[2023-03-31 01:28:59][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 12582912
+[2023-03-31 01:29:04][notice]finished send chunk
+[2023-03-31 01:29:04][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 14,00 Mo speed:419.43kb/s
+[2023-03-31 01:29:04][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 14680064
+[2023-03-31 01:29:09][notice]finished send chunk
+[2023-03-31 01:29:09][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 16,00 Mo speed:419.43kb/s
+[2023-03-31 01:29:09][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 16777216
+[2023-03-31 01:29:14][notice]finished send chunk
+[2023-03-31 01:29:14][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 18,00 Mo speed:419.43kb/s
+[2023-03-31 01:29:14][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 18874368
+[2023-03-31 01:29:19][notice]finished send chunk
+[2023-03-31 01:29:19][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 20,00 Mo speed:419.43kb/s
+[2023-03-31 01:29:19][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 20971520
+[2023-03-31 01:29:24][notice]finished send chunk
+[2023-03-31 01:29:24][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 22,00 Mo speed:419.43kb/s
+[2023-03-31 01:29:24][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 23068672
+[2023-03-31 01:29:30][notice]finished send chunk
+[2023-03-31 01:29:30][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 24,00 Mo speed:349.53kb/s
+[2023-03-31 01:29:30][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 25165824
+[2023-03-31 01:29:36][notice]finished send chunk
+[2023-03-31 01:29:36][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 26,00 Mo speed:349.53kb/s
+[2023-03-31 01:29:36][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 27262976
+[2023-03-31 01:29:41][notice]finished send chunk
+[2023-03-31 01:29:41][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 28,00 Mo speed:419.43kb/s
+[2023-03-31 01:29:41][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 29360128
+[2023-03-31 01:29:47][notice]finished send chunk
+[2023-03-31 01:29:47][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 30,00 Mo speed:349.53kb/s
+[2023-03-31 01:29:47][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 31457280
+[2023-03-31 01:29:52][notice]finished send chunk
+[2023-03-31 01:29:52][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 32,00 Mo speed:419.43kb/s
+[2023-03-31 01:29:52][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 33554432
+[2023-03-31 01:29:57][notice]finished send chunk
+[2023-03-31 01:29:57][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 34,00 Mo speed:419.43kb/s
+[2023-03-31 01:29:57][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 35651584
+[2023-03-31 01:30:02][notice]finished send chunk
+[2023-03-31 01:30:02][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 36,00 Mo speed:419.43kb/s
+[2023-03-31 01:30:02][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 37748736
+[2023-03-31 01:30:08][notice]finished send chunk
+[2023-03-31 01:30:08][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 38,00 Mo speed:349.53kb/s
+[2023-03-31 01:30:08][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 39845888
+[2023-03-31 01:30:12][notice]finished send chunk
+[2023-03-31 01:30:12][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 40,00 Mo speed:524.29kb/s
+[2023-03-31 01:30:12][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 41943040
+[2023-03-31 01:30:17][notice]finished send chunk
+[2023-03-31 01:30:17][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 42,00 Mo speed:419.43kb/s
+[2023-03-31 01:30:17][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 44040192
+[2023-03-31 01:30:22][notice]finished send chunk
+[2023-03-31 01:30:22][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 44,00 Mo speed:419.43kb/s
+[2023-03-31 01:30:22][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 46137344
+[2023-03-31 01:30:28][notice]finished send chunk
+[2023-03-31 01:30:28][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 46,00 Mo speed:349.53kb/s
+[2023-03-31 01:30:28][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 48234496
+[2023-03-31 01:30:33][notice]finished send chunk
+[2023-03-31 01:30:33][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 48,00 Mo speed:419.43kb/s
+[2023-03-31 01:30:33][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 50331648
+[2023-03-31 01:30:38][notice]finished send chunk
+[2023-03-31 01:30:38][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 50,00 Mo speed:419.43kb/s
+[2023-03-31 01:30:38][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 52428800
+[2023-03-31 01:30:44][notice]finished send chunk
+[2023-03-31 01:30:44][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 52,00 Mo speed:349.53kb/s
+[2023-03-31 01:30:44][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 54525952
+[2023-03-31 01:30:50][notice]finished send chunk
+[2023-03-31 01:30:50][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 54,00 Mo speed:349.53kb/s
+[2023-03-31 01:30:50][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 56623104
+[2023-03-31 01:30:54][notice]finished send chunk
+[2023-03-31 01:30:54][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 56,00 Mo speed:524.29kb/s
+[2023-03-31 01:30:55][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 58720256
+[2023-03-31 01:30:59][notice]finished send chunk
+[2023-03-31 01:30:59][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 58,00 Mo speed:419.43kb/s
+[2023-03-31 01:30:59][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 60817408
+[2023-03-31 01:31:04][notice]finished send chunk
+[2023-03-31 01:31:04][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 60,00 Mo speed:419.43kb/s
+[2023-03-31 01:31:05][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 62914560
+[2023-03-31 01:31:10][notice]finished send chunk
+[2023-03-31 01:31:10][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 62,00 Mo speed:349.53kb/s
+[2023-03-31 01:31:10][notice]send chunk localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip offset 65011712
+[2023-03-31 01:31:15][notice]finished send chunk
+[2023-03-31 01:31:15][notice]Uploading localhost_wp-lepays_wpvivid-64261abfc66f3_2023-03-31-01-26_backup_all.zip Total size: 62,98 Mo Uploaded: 62,98 Mo speed:205.06kb/s
+[2023-03-31 01:31:15][notice]upload finished
+[2023-03-31 01:31:17][notice]Finish upload to send_to_site
+[2023-03-31 01:31:17][notice]Upload finished. Delete task wpvivid-64261abfc66f3
