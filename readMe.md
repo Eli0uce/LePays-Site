@@ -1,6 +1,7 @@
 # Mon site WordPress
 
 Ce site a été créé avec WordPress, un système de gestion de contenu (CMS) open-source populaire pour la création de sites web et de blogs.
+Accéder au site en ligne : https://6426416e2875df07f6658a43--glistening-khapse-3212d4.netlify.app/
 
 ## Fonctionnalités
 
